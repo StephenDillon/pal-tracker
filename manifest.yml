@@ -3,7 +3,7 @@ applications:
   - name: pal-tracker
     path: build/libs/pal-tracker.jar
     routes:
-    - route:pal-tracker-dillons.apps.titan2.lab.emc.com
+    - route: pal-tracker-dillos.cfapps.io
     env:
       WELCOME_MESSAGE: Hello from Cloud Foundry
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
